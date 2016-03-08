@@ -1,0 +1,274 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+
+.color-gray{
+	color: #AEB2B7;
+}
+
+.bg-gray{
+    background-color: #F2F2F2;
+}
+.pd-0{
+    padding: 0;
+}
+.sidebar-toggle-box{
+	display: inline-block;
+}
+
+.top-menu{
+	    display: initial;
+}
+
+.top-menu a{
+  color:white;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #424A5D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.logo b{
+    font-size: 16px;
+    color:white;
+}
+
+
+aside{
+	display: inline-block;
+    position: fixed;
+    height: 100vh;
+    background:#424A5D;
+    padding: 0;
+    padding-top: 50px;
+    width: 210px;
+}
+
+.sidebar-menu{
+    padding: 20px;
+    color:white;
+    padding: 15px; 
+}
+
+.active{
+    background-color:#9C4C9D;
+    color: white;
+}
+
+.sub-menu{
+    list-style: none;
+    color:white;
+}
+.sub-menu a{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #AEB2B7;
+}
+
+.sub-menu span{
+    font-size: 12px;
+}
+
+.sub-menu a:hover{
+background-color: #E26EAB;
+text-decoration: none;
+color:white;
+}
+
+/*---Dasboard---*/
+#main-content{
+	    margin-left: 200px;
+      padding-top:80px;
+      padding-left: 20px;
+      background-color: #F2F2F2;
+}
+#main-content .row{
+  margin: 0;
+}
+.top-menu a{
+    background: #9C4C9D;
+    border: solid 1px #9C4C9D;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 12px;
+}
+
+.nav > li > a {
+    padding: 5px 20px;
+    margin-right: 20px
+}
+
+.box0{
+    text-align: center;
+
+}
+.box0 h3{
+    font-size: 18px;
+}
+.box1{
+    color: #989898;
+    border-bottom: 1px solid #C8C8C8;
+    padding-top: 25px;
+}
+.font-icon{
+    font-size: 35px;
+}
+.pd-0{
+    padding: 0;
+}
+.mostrar{
+    display: none;
+}
+.main-chart .row a:hover .box1{
+    border-bottom: none;
+}
+.main-chart .row a:hover .mostrar{
+   display: block;
+   color: #FF8D65;
+   font-size: 10px;
+}
+.main-chart .row a:hover .box0{
+   background-color: white;
+   box-shadow: 0 2px 3px gray;
+}
+
+.page-header h1{
+    color: #797979;
+    font-size: 30px;
+}
+
+.favoritos-text{
+  color: #959595;
+  font-size: 12px;
+}
+.favoritos-text h4{
+  font-size: 16px;
+}
+.showback h4{
+  color:#949494;
+}
+.showback{
+   background-color: white;
+   box-shadow: 0 2px 3px gray;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+.ds{
+  background-color: white;
+  margin-top: -30px;
+}
+.box-h3{
+  font-size: 13px;
+  color: white;
+  background-color: #9C4C9D;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.desc{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #EAEAEA;
+
+}
+
+.thumb{
+  width: 40px;
+  text-align: right;
+}
+
+.details{
+  width: 70%;
+}
+
+.details p{
+  font-size: 12px;
+  color: #858585;
+}
+.thumb .badge{
+  background-color:#68DFF0;
+  font-size: 16px;
+}
+.member{
+  color:#4D91CD;
+  font-size: 12px;
+}
+
+muted{
+  font-style: italic;
+  font-size: 12px;
+}
+
+.mt{
+    background-color: white;
+    box-shadow: 0 2px 3px gray;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.form-group .control-label{
+  text-align: left !important;
+  color:#797979;
+}
+
+/*---Login---*/
+.login-page{
+  background:#F2F2F2;
+  height: 100%;
+}
+.login-content{
+  width: 30%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 100vh;
+}
+.login-wrap{
+  padding: 15px;
+  background-color: white;
+}
+.form-login{
+  border-radius: 5px;
+  background: #68dff0;
+}
+.form-login h2{
+  padding: 4px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+.registration{
+  text-align: center;
+  padding: 10px;
+}
+.buttons a {
+  font-size: 12px;
+  margin-right: 5px;
+}
+ /*---galeria-de-fotos---*/
+.photo{
+  margin-bottom: 10px;
+}
